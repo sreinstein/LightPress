@@ -13,5 +13,10 @@
 				<nav>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary_navigation', 'container' => 'primary-navigation', 'menu_id' => 'primary-navigation', 'before' => '' ) ); ?>
 				</nav>
+				<button class="hamburger hamburger--spin" type="button">
+					<span class="hamburger-box">
+				    	<span class="hamburger-inner"></span>
+				  	</span>
+				</button>
 			</div>
 		</header>

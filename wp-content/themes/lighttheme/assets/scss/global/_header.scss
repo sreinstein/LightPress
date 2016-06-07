@@ -2,3 +2,17 @@ header {
 	float: left;
 	width: span(12);
 }
+
+.hamburger {
+	display: block;
+	@include breakpoint($bp-charlie) {
+		display: none;
+	}
+}
+
+nav {
+	display: none;
+	@include breakpoint($bp-charlie) {
+		display: block;
+	}
+}

@@ -23,6 +23,9 @@ var Base = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
+      $( ".hamburger" ).click(function() {
+        $( this ).toggleClass( "is-active" );
+      });
     }
   },
   // Home page
