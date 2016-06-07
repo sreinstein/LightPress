@@ -8,8 +8,8 @@ Inspired by the ability to have a great starting point for all WordPress project
 
 * Clone the repo
 * Fill in core WordPress files
-* Navigate to theme folder and run: sudo npm install
-* Run: gulp watch
+* Navigate to theme folder and run: `sudo npm install`
+* Run: `gulp watch`
 * Rename local-config-sample.php to local-config.php and configure
 * Install WordPress
 * Activate Light Plugin
