@@ -2,7 +2,6 @@
 /wp-includes
 /wp-content/uploads
 /wp-*.php
-/wp-config.php
 /index.php
 /license.txt
 /readme.html
