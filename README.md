@@ -2,7 +2,45 @@
 A lightweight WordPress theme &amp; plugin.
 
 ## Motivation
-Inspired by the ability to have a great starting point for all WordPress projects, this theme & plugin is a lightweight solution.
+Inspired by the ability to have a great starting point for all WordPress projects, this theme & plugin is a lightweight mobile-first solution.
+
+## Code Examples
+
+### Breakpoints
+Pre-configured variables:
+```
+$bp-alpha   : 320px;
+$bp-bravo   : 480px;
+$bp-charlie : 768px;
+$bp-delta   : 960px;
+$bp-echo    : 1250px;
+```
+
+Breakpoint usage:
+```
+.example {
+  font-size: 16px;
+  @include breakpoint($bp-charlie) {  
+    font-size: 18px;  
+  }
+}
+```
+
+Result:
+```
+.example {
+  font-size:16px
+}
+@media (min-width:768px) {
+  .example {
+    font-size:18px;
+  }
+}
+```
+
+### Hamburger Menu
+
+See https://github.com/jonsuh/hamburgers#usage for full documentation.
 
 ## Installation
 
