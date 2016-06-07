@@ -38,6 +38,10 @@ Result:
 }
 ```
 
+### Hamburger Menu
+
+See https://github.com/jonsuh/hamburgers#usage for full documentation.
+
 ## Installation
 
 * Clone the repo
