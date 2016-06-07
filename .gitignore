@@ -8,4 +8,5 @@
 /xmlrpc.php
 /local-config.php
 /npm-debug.log
+!/wp-config.php
 .DS_Store
