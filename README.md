@@ -19,7 +19,7 @@ Inspired by the ability to have a great starting point for all WordPress project
 Stephen Reinstein (www.sreinstein.com)
 
 ## Shoutouts
-Thanks to ThemeShaper.com, Jack Perry, and Tammy Hart
+Thanks to ThemeShaper.com, Jack Perry, Tammy Hart, and 10up
 
 ## License
 GPLv3
