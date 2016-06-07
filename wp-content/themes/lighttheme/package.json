@@ -1,0 +1,32 @@
+{
+  "name": "LightTheme",
+  "version": "1.0.0",
+  "author": "Stephen Reinstein <me@sreinstein.com>",
+  "homepage": "http://www.lightthe.me",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UpTrendingLLC/base-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UpTrendingLLC/base-theme/issues"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">= 6.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-newer": "^0.5.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "susy": "^2.2.12",
+    "sass-loader": "^3.2.0"
+  }
+}

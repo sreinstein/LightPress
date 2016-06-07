@@ -1,0 +1,12 @@
+/wp-admin
+/wp-includes
+/wp-content/uploads
+/wp-*.php
+/wp-config.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/local-config.php
+/npm-debug.log
+.DS_Store

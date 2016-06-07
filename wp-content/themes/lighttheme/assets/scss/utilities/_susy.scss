@@ -1,0 +1,12 @@
+$susy: (
+  container: 1170px,
+  columns: 12,
+  gutters: 30px/70px,
+  global-box-sizing: border-box,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  )
+);

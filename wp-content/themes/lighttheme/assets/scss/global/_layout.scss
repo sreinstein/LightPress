@@ -1,0 +1,16 @@
+.container {
+	@include container;
+	margin: 0 auto;
+	padding: 0 20px;
+	@include breakpoint($bp-charlie) {
+		padding: 0 40px;
+	}
+}
+
+.content {
+	float: left;
+	width: span(12);
+	@include breakpoint($bp-charlie) {
+		width: span(9);
+	}
+}

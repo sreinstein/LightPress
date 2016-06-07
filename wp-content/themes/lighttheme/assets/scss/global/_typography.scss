@@ -1,0 +1,55 @@
+h1 {
+	font-size: 42px;
+	line-height: 50px;
+	margin: 0 0 .5em;
+	@include breakpoint($bp-charlie) {
+		font-size: 50px;
+		line-height: 58px;
+	}
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 40px;
+	margin: 0 0 .5em;
+	@include breakpoint($bp-charlie) {
+		font-size: 40px;
+		line-height: 48px;
+	}
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	margin: 0 0 .5em;
+	@include breakpoint($bp-charlie) {
+		font-size: 30px;
+		line-height: 38px;
+	}
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 26px;
+	margin: 0 0 .5em;
+	@include breakpoint($bp-charlie) {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 .5em;
+	@include breakpoint($bp-charlie) {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 .8em;
+}

@@ -1,0 +1,7 @@
+aside {
+	float: left;
+	width: span(12);
+	@include breakpoint($bp-charlie) {
+		width: span(3);
+	}
+}
