@@ -46,10 +46,12 @@ gulp.task('scripts', function () {
 // Watch
 
 gulp.task('watch', function() {
-	// Watch .scss files
-	gulp.watch('assets/scss/**/*.scss', ['styles']);
-	// Watch .js files
-	gulp.watch('assets/js/**/*.js', ['scripts']);
+    // Watch .scss files
+    gulp.watch('assets/scss/**/*.scss', ['styles']);
+    // Watch .js files
+    gulp.watch('assets/js/**/*.js', ['scripts']);
+    // Watch img files
+    gulp.watch('assets/img/**/*', ['images']);
 });
 
 gulp.task('default', function() {
